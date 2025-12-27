@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <span>Projects / Fernando</span>
+            <h1>Quadro de Tarefas</h1>
+            <button id="addColumnBtn">Adicionar nova Coluna</button>
+            <button id="themeToggle">🌙</button>
+
+        </header>
+
+        <section class="columns">
+            <section class="column" data-status="todo">
+                <h2 class="column__title">TODAS AS TAREFAS (<span class="counter">0</span>)</h2>
+                <section class="column__cards"></section>
+            </section>
+
+
+            <section class="column" data-status="doing"> 
+                <h2 class="column__title">TAREFAS EM PROGRESSO (<span class="counter">0</span>)</h2>
+
+                <section class="column__cards"></section>
+            </section>
+
+            <section class="column" data-status="review">
+                <h2 class="column__title">TAREFAS PARA REVISAR (<span class="counter">0</span>)</h2>
+
+                <section class="column__cards"></section>
+            </section>
+
+            <section class="column" data-status="done">
+                <h2 class="column__title">TAREFAS CONCLUIDAS (<span class="counter">0</span>)</h2>
+
+                <section class="column__cards">
+                </section>
+            </section>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
